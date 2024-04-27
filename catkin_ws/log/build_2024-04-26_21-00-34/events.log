@@ -1,0 +1,522 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (my_serial_node) JobQueued: {'identifier': 'my_serial_node', 'dependencies': OrderedDict()}
+[0.000518] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.002238] (my_serial_node) JobStarted: {'identifier': 'my_serial_node'}
+[0.100204] (-) TimerEvent: {}
+[0.204628] (-) TimerEvent: {}
+[0.306369] (-) TimerEvent: {}
+[0.407631] (-) TimerEvent: {}
+[0.450399] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.509003] (-) TimerEvent: {}
+[0.627748] (-) TimerEvent: {}
+[0.730011] (-) TimerEvent: {}
+[0.835131] (-) TimerEvent: {}
+[0.945696] (-) TimerEvent: {}
+[1.063099] (-) TimerEvent: {}
+[1.092820] (my_serial_node) JobProgress: {'identifier': 'my_serial_node', 'progress': 'cmake'}
+[1.102103] (my_serial_node) JobProgress: {'identifier': 'my_serial_node', 'progress': 'build'}
+[1.102421] (my_serial_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node', '--', '-j4', '-l4'], 'cwd': '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kurisaw'), ('SSH_AGENT_PID', '1725'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib:/home/kurisaw/catkin_ws/install/rviz_imu_plugin/lib:/home/kurisaw/catkin_ws/install/imu_filter_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kurisaw'), ('OLDPWD', '/home/kurisaw/Desktop/catkin_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install:/home/kurisaw/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kurisaw'), ('JOURNAL_STREAM', '8:54207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kurisaw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kurisaw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1761,unix/ubuntu:/tmp/.ICE-unix/1761'), ('INVOCATION_ID', '06d5d1db2fa1458aa2c0f2c8a491fdac'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/817e31c8_646e_480c_beed_defbeb373686'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy')]), 'shell': False}
+[1.154429] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[1.166441] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.166642] (-) TimerEvent: {}
+[1.169001] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kurisaw/Desktop/catkin_ws/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/kurisaw/Desktop/catkin_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kurisaw'), ('SSH_AGENT_PID', '1725'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib:/home/kurisaw/catkin_ws/install/rviz_imu_plugin/lib:/home/kurisaw/catkin_ws/install/imu_filter_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kurisaw'), ('OLDPWD', '/home/kurisaw/Desktop/catkin_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install:/home/kurisaw/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kurisaw'), ('JOURNAL_STREAM', '8:54207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kurisaw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kurisaw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1761,unix/ubuntu:/tmp/.ICE-unix/1761'), ('INVOCATION_ID', '06d5d1db2fa1458aa2c0f2c8a491fdac'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/817e31c8_646e_480c_beed_defbeb373686'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kurisaw/Desktop/catkin_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy')]), 'shell': False}
+[1.268077] (-) TimerEvent: {}
+[1.359175] (my_serial_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_node\x1b[0m\n'}
+[1.368909] (-) TimerEvent: {}
+[1.470722] (-) TimerEvent: {}
+[1.480589] (turtlesim) StdoutLine: {'line': b'[ 10%] Built target turtlesim__rosidl_generator_c\n'}
+[1.598075] (-) TimerEvent: {}
+[1.619679] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__cpp\n'}
+[1.702185] (-) TimerEvent: {}
+[1.758398] (turtlesim) StdoutLine: {'line': b'[ 27%] Built target turtlesim__rosidl_typesupport_c\n'}
+[1.758924] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[1.783633] (my_serial_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o\x1b[0m\n'}
+[1.829787] (-) TimerEvent: {}
+[1.931149] (-) TimerEvent: {}
+[1.939197] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[1.971156] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[2.031644] (-) TimerEvent: {}
+[2.078004] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[2.090168] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[2.133869] (-) TimerEvent: {}
+[2.176914] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[2.235694] (-) TimerEvent: {}
+[2.349424] (-) TimerEvent: {}
+[2.378766] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[2.449931] (-) TimerEvent: {}
+[2.504889] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target draw_square\n'}
+[2.546150] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtle_teleop_key\n'}
+[2.550812] (-) TimerEvent: {}
+[2.564607] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim_node\n'}
+[2.661790] (-) TimerEvent: {}
+[2.685916] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtlesim__python\n'}
+[2.763208] (-) TimerEvent: {}
+[2.845896] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target mimic\n'}
+[2.865235] (-) TimerEvent: {}
+[2.887574] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.917806] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[2.955146] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[2.966257] (-) TimerEvent: {}
+[2.997316] (turtlesim) CommandEnded: {'returncode': 0}
+[3.069784] (-) TimerEvent: {}
+[3.172220] (-) TimerEvent: {}
+[3.273349] (-) TimerEvent: {}
+[3.377375] (-) TimerEvent: {}
+[3.481847] (-) TimerEvent: {}
+[3.589114] (-) TimerEvent: {}
+[3.693897] (-) TimerEvent: {}
+[3.801680] (-) TimerEvent: {}
+[3.905913] (-) TimerEvent: {}
+[4.013593] (-) TimerEvent: {}
+[4.121615] (-) TimerEvent: {}
+[4.226073] (-) TimerEvent: {}
+[4.330920] (-) TimerEvent: {}
+[4.438295] (-) TimerEvent: {}
+[4.539119] (-) TimerEvent: {}
+[4.650403] (-) TimerEvent: {}
+[4.770265] (-) TimerEvent: {}
+[4.871117] (-) TimerEvent: {}
+[4.972156] (-) TimerEvent: {}
+[5.073252] (-) TimerEvent: {}
+[5.174173] (-) TimerEvent: {}
+[5.275098] (-) TimerEvent: {}
+[5.376157] (-) TimerEvent: {}
+[5.477820] (-) TimerEvent: {}
+[5.579787] (-) TimerEvent: {}
+[5.680842] (-) TimerEvent: {}
+[5.781736] (-) TimerEvent: {}
+[5.882666] (-) TimerEvent: {}
+[5.983699] (-) TimerEvent: {}
+[6.084728] (-) TimerEvent: {}
+[6.190113] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[6.191778] (-) TimerEvent: {}
+[6.220574] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kurisaw/Desktop/catkin_ws/build/turtlesim'], 'cwd': '/home/kurisaw/Desktop/catkin_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kurisaw'), ('SSH_AGENT_PID', '1725'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib:/home/kurisaw/catkin_ws/install/rviz_imu_plugin/lib:/home/kurisaw/catkin_ws/install/imu_filter_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kurisaw'), ('OLDPWD', '/home/kurisaw/Desktop/catkin_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install:/home/kurisaw/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kurisaw'), ('JOURNAL_STREAM', '8:54207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kurisaw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kurisaw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1761,unix/ubuntu:/tmp/.ICE-unix/1761'), ('INVOCATION_ID', '06d5d1db2fa1458aa2c0f2c8a491fdac'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/817e31c8_646e_480c_beed_defbeb373686'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kurisaw/Desktop/catkin_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy')]), 'shell': False}
+[6.275058] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.279137] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[6.280173] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim\n'}
+[6.281214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action\n'}
+[6.282541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[6.283440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[6.284626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[6.285546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[6.286685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[6.287612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[6.288529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg\n'}
+[6.289490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.290903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[6.291916] (-) TimerEvent: {}
+[6.294028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[6.294445] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[6.295542] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[6.296540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[6.297473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[6.298674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[6.299685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[6.300539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[6.301410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[6.302556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[6.303465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv\n'}
+[6.304608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[6.305743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[6.306723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[6.307736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[6.308651] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[6.310014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[6.311125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[6.312143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[6.313074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[6.314278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[6.315321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[6.316246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[6.317166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[6.319680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[6.322572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[6.323487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[6.325008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[6.328299] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[6.338436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[6.339032] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[6.339342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[6.339709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[6.339974] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[6.340187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[6.340417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[6.340695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[6.340995] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[6.341282] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[6.341521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[6.345393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim\n'}
+[6.346748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action\n'}
+[6.347810] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[6.349120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[6.350402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg\n'}
+[6.351678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.352049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[6.353380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[6.355312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[6.356314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv\n'}
+[6.357829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[6.358768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[6.359714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[6.360641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[6.362304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[6.363154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[6.366353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[6.369341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim\n'}
+[6.370285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action\n'}
+[6.371379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[6.372538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.373393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[6.374694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg\n'}
+[6.375520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[6.376273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.376969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.377778] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[6.378682] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.379840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv\n'}
+[6.380672] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[6.381844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.382770] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.383603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[6.384636] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.385922] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.386301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.389385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.392344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim\n'}
+[6.392590] (-) TimerEvent: {}
+[6.393532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action\n'}
+[6.394382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[6.395183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[6.395896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[6.396635] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg\n'}
+[6.397594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.398301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[6.399049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[6.399740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[6.400468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[6.401385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[6.402415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv\n'}
+[6.403302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[6.404266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[6.405279] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[6.405988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[6.407489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[6.408231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[6.408939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[6.409854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[6.410668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[6.411355] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[6.412065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[6.414806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[6.420341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[6.425835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim\n'}
+[6.427901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action\n'}
+[6.431004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[6.431995] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[6.433383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[6.434282] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[6.435021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[6.435723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[6.436417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg\n'}
+[6.437629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[6.438986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[6.439695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[6.441366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.hpp\n'}
+[6.442075] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[6.442764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[6.443485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[6.444304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[6.444954] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[6.445765] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[6.446625] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[6.447700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.448590] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv\n'}
+[6.450161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[6.451667] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[6.451903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[6.453604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[6.453846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[6.454509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[6.455161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[6.455778] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[6.456392] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[6.457003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[6.457903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[6.459460] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[6.460127] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[6.460739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[6.461720] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[6.463238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[6.464063] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[6.464843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[6.465935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[6.466996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[6.467244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[6.467847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[6.468624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[6.469465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[6.470180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[6.470851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[6.471607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim\n'}
+[6.472429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action\n'}
+[6.473403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[6.474217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[6.474835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.475487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg\n'}
+[6.476224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[6.476977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.477862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.478589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[6.479456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[6.480171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv\n'}
+[6.480871] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[6.483055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.483748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[6.484406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[6.489718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.490054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[6.490362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[6.490646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.490960] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.491253] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[6.491541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.491854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[6.493419] (-) TimerEvent: {}
+[6.497487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[6.500572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[6.501814] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[6.504152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[6.594401] (-) TimerEvent: {}
+[6.695343] (-) TimerEvent: {}
+[6.730110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[6.730552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[6.730889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[6.731208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[6.731482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[6.731749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[6.732027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[6.732366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[6.732649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[6.732925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[6.734356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[6.735239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[6.735478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[6.735684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[6.735885] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[6.736109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[6.736317] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[6.736513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[6.736707] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[6.736901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[6.737104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[6.737470] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[6.737692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.740538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.748596] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.759105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[6.760963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[6.777952] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[6.779602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[6.779897] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[6.780186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[6.780624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[6.782301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[6.782962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[6.788804] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[6.789065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[6.789425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[6.789767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[6.790579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[6.791416] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[6.791671] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[6.791913] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[6.792176] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[6.792431] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[6.792717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[6.792918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[6.793304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[6.794594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[6.794950] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[6.795253] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[6.795505] (-) TimerEvent: {}
+[6.795857] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[6.796701] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[6.806700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[6.829575] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[6.830046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[6.845394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[6.853730] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/images\n'}
+[6.854103] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[6.855071] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[6.856715] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[6.857558] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[6.858180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[6.858405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[6.858611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/launch\n'}
+[6.858808] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[6.859005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[6.859774] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[6.859973] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[6.863178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[6.863557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[6.864369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[6.864918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[6.865837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[6.866175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[6.866769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[6.867073] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[6.867874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[6.873619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[6.873906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.874184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.874417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.874612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[6.874822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.875017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[6.875235] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.881450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.881893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[6.883047] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.884284] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[6.885984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.887472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.893566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.895353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.895891] (-) TimerEvent: {}
+[6.899946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.900339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.900631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[6.900892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[6.901536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[6.941432] (turtlesim) CommandEnded: {'returncode': 0}
+[7.005780] (-) TimerEvent: {}
+[7.109830] (-) TimerEvent: {}
+[7.220063] (-) TimerEvent: {}
+[7.322556] (-) TimerEvent: {}
+[7.424534] (-) TimerEvent: {}
+[7.526926] (-) TimerEvent: {}
+[7.629884] (-) TimerEvent: {}
+[7.734218] (-) TimerEvent: {}
+[7.837383] (-) TimerEvent: {}
+[7.940427] (-) TimerEvent: {}
+[8.043212] (-) TimerEvent: {}
+[8.146467] (-) TimerEvent: {}
+[8.249615] (-) TimerEvent: {}
+[8.353529] (-) TimerEvent: {}
+[8.456039] (-) TimerEvent: {}
+[8.558729] (-) TimerEvent: {}
+[8.661082] (-) TimerEvent: {}
+[8.763068] (-) TimerEvent: {}
+[8.865597] (-) TimerEvent: {}
+[8.968459] (-) TimerEvent: {}
+[9.070444] (-) TimerEvent: {}
+[9.172873] (-) TimerEvent: {}
+[9.275530] (-) TimerEvent: {}
+[9.383726] (-) TimerEvent: {}
+[9.487823] (-) TimerEvent: {}
+[9.590425] (-) TimerEvent: {}
+[9.714018] (-) TimerEvent: {}
+[9.831288] (-) TimerEvent: {}
+[9.946335] (-) TimerEvent: {}
+[10.047719] (-) TimerEvent: {}
+[10.134897] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[10.153416] (-) TimerEvent: {}
+[10.254397] (-) TimerEvent: {}
+[10.355314] (-) TimerEvent: {}
+[10.457127] (-) TimerEvent: {}
+[10.558066] (-) TimerEvent: {}
+[10.658942] (-) TimerEvent: {}
+[10.760112] (-) TimerEvent: {}
+[10.862007] (-) TimerEvent: {}
+[10.962882] (-) TimerEvent: {}
+[11.063999] (-) TimerEvent: {}
+[11.164930] (-) TimerEvent: {}
+[11.266425] (-) TimerEvent: {}
+[11.376989] (-) TimerEvent: {}
+[11.478788] (-) TimerEvent: {}
+[11.580040] (-) TimerEvent: {}
+[11.681855] (-) TimerEvent: {}
+[11.783687] (-) TimerEvent: {}
+[11.884654] (-) TimerEvent: {}
+[11.985734] (-) TimerEvent: {}
+[12.087687] (-) TimerEvent: {}
+[12.189600] (-) TimerEvent: {}
+[12.290513] (-) TimerEvent: {}
+[12.392012] (-) TimerEvent: {}
+[12.492801] (-) TimerEvent: {}
+[12.594360] (-) TimerEvent: {}
+[12.696133] (-) TimerEvent: {}
+[12.798204] (-) TimerEvent: {}
+[12.899776] (-) TimerEvent: {}
+[13.000982] (-) TimerEvent: {}
+[13.101813] (-) TimerEvent: {}
+[13.204107] (-) TimerEvent: {}
+[13.304757] (-) TimerEvent: {}
+[13.405552] (-) TimerEvent: {}
+[13.506341] (-) TimerEvent: {}
+[13.607407] (-) TimerEvent: {}
+[13.708398] (-) TimerEvent: {}
+[13.809505] (-) TimerEvent: {}
+[13.910544] (-) TimerEvent: {}
+[14.011346] (-) TimerEvent: {}
+[14.112398] (-) TimerEvent: {}
+[14.213461] (-) TimerEvent: {}
+[14.314396] (-) TimerEvent: {}
+[14.416352] (-) TimerEvent: {}
+[14.518524] (-) TimerEvent: {}
+[14.620408] (-) TimerEvent: {}
+[14.722499] (-) TimerEvent: {}
+[14.823933] (-) TimerEvent: {}
+[14.925006] (-) TimerEvent: {}
+[15.026088] (-) TimerEvent: {}
+[15.061817] (my_serial_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial_node\x1b[0m\n'}
+[15.127048] (-) TimerEvent: {}
+[15.237703] (-) TimerEvent: {}
+[15.338717] (-) TimerEvent: {}
+[15.440134] (-) TimerEvent: {}
+[15.541463] (-) TimerEvent: {}
+[15.642631] (-) TimerEvent: {}
+[15.744232] (-) TimerEvent: {}
+[15.845201] (-) TimerEvent: {}
+[15.946364] (-) TimerEvent: {}
+[16.048143] (-) TimerEvent: {}
+[16.149171] (-) TimerEvent: {}
+[16.250409] (-) TimerEvent: {}
+[16.328443] (my_serial_node) StdoutLine: {'line': b'[100%] Built target serial_node\n'}
+[16.348214] (my_serial_node) CommandEnded: {'returncode': 0}
+[16.365817] (-) TimerEvent: {}
+[16.472850] (-) TimerEvent: {}
+[16.505380] (my_serial_node) JobProgress: {'identifier': 'my_serial_node', 'progress': 'install'}
+[16.507035] (my_serial_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node'], 'cwd': '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kurisaw'), ('SSH_AGENT_PID', '1725'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib:/home/kurisaw/catkin_ws/install/rviz_imu_plugin/lib:/home/kurisaw/catkin_ws/install/imu_filter_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kurisaw'), ('OLDPWD', '/home/kurisaw/Desktop/catkin_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install:/home/kurisaw/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kurisaw'), ('JOURNAL_STREAM', '8:54207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kurisaw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kurisaw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1761,unix/ubuntu:/tmp/.ICE-unix/1761'), ('INVOCATION_ID', '06d5d1db2fa1458aa2c0f2c8a491fdac'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/817e31c8_646e_480c_beed_defbeb373686'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy')]), 'shell': False}
+[16.536207] (my_serial_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.538796] (my_serial_node) StdoutLine: {'line': b'-- Installing: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib/my_serial_node/serial_node\n'}
+[16.558601] (my_serial_node) StdoutLine: {'line': b'-- Set runtime path of "/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib/my_serial_node/serial_node" to ""\n'}
+[16.560368] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node//launch\n'}
+[16.564185] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/ament_index/resource_index/package_run_dependencies/my_serial_node\n'}
+[16.565277] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/ament_index/resource_index/parent_prefix_path/my_serial_node\n'}
+[16.566036] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/ament_prefix_path.sh\n'}
+[16.566384] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/ament_prefix_path.dsv\n'}
+[16.566711] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/path.sh\n'}
+[16.566997] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/path.dsv\n'}
+[16.567280] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.bash\n'}
+[16.567605] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.sh\n'}
+[16.567926] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.zsh\n'}
+[16.568220] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.dsv\n'}
+[16.568528] (my_serial_node) StdoutLine: {'line': b'-- Installing: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.dsv\n'}
+[16.568848] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/ament_index/resource_index/packages/my_serial_node\n'}
+[16.569148] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/cmake/my_serial_nodeConfig.cmake\n'}
+[16.569448] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/cmake/my_serial_nodeConfig-version.cmake\n'}
+[16.578219] (-) TimerEvent: {}
+[16.578948] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.xml\n'}
+[16.579164] (my_serial_node) CommandEnded: {'returncode': 0}
+[16.687285] (-) TimerEvent: {}
+[16.790718] (-) TimerEvent: {}
+[16.892214] (-) TimerEvent: {}
+[16.994664] (-) TimerEvent: {}
+[17.097835] (-) TimerEvent: {}
+[17.199939] (-) TimerEvent: {}
+[17.302116] (-) TimerEvent: {}
+[17.403025] (-) TimerEvent: {}
+[17.493182] (my_serial_node) JobEnded: {'identifier': 'my_serial_node', 'rc': 0}
+[17.504483] (-) TimerEvent: {}
+[17.510926] (-) EventReactorShutdown: {}

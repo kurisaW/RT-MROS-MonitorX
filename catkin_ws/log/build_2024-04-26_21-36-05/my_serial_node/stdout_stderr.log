@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o[0m
+[01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:[m[K In function ‘[01m[Kvoid sendMessage(float, float)[m[K’:
+[01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:38:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfloat[m[K’
+   38 |     std::[01;31m[Kfloat[m[K message = std::x + "," + std::y;
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:44:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   44 |     write(serial_fd, [01;31m[Kmessage[m[K, message.length());
+      |                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:36:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   36 | void sendMessage([01;35m[Kfloat x[m[K, float y) {
+      |                  [01;35m[K~~~~~~^[m[K
+[01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:36:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   36 | void sendMessage(float x, [01;35m[Kfloat y[m[K) {
+      |                           [01;35m[K~~~~~~^[m[K
+make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

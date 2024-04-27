@@ -1,0 +1,20 @@
+[0.383s] Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/turtlesim -- -j4 -l4
+[0.603s] [  1%] Built target turtlesim__cpp
+[0.702s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.774s] [ 21%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.787s] [ 31%] Built target turtlesim__rosidl_typesupport_cpp
+[0.822s] [ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.848s] [ 51%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.946s] [ 61%] Built target turtlesim__rosidl_typesupport_c
+[0.971s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[1.042s] [ 71%] Built target turtlesim
+[1.149s] [ 72%] Built target turtlesim__py
+[1.189s] [ 74%] Built target turtle_teleop_key
+[1.284s] [ 76%] Built target draw_square
+[1.320s] [ 82%] Built target turtlesim_node
+[1.355s] [ 84%] Built target mimic
+[1.387s] [ 93%] Built target turtlesim__python
+[1.534s] [ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[1.544s] [ 97%] Built target turtlesim__rosidl_typesupport_c__pyext
+[1.546s] [100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[1.599s] Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/turtlesim -- -j4 -l4

@@ -1,0 +1,11 @@
+[0.925s] Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4
+[1.069s] [35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[1.159s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o[0m
+[2.053s] [01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+[2.054s]     5 | #include [01;31m[K<serial/serial.h>[m[K
+[2.055s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.057s] compilation terminated.
+[2.065s] make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o] Error 1
+[2.066s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+[2.067s] make: *** [Makefile:146: all] Error 2
+[2.078s] Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4

@@ -1,0 +1,10 @@
+[0.930s] Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4
+[1.834s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o[0m
+[4.106s] [01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kcjson/cJSON.h: No such file or directory
+[4.107s]     9 | #include [01;31m[K"cjson/cJSON.h"[m[K // Include the Cjson library
+[4.107s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.107s] compilation terminated.
+[4.127s] make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o] Error 1
+[4.148s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+[4.149s] make: *** [Makefile:146: all] Error 2
+[4.151s] Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4

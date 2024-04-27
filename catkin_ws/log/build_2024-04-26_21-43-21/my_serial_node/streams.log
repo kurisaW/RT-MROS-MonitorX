@@ -1,0 +1,24 @@
+[0.446s] Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4
+[0.597s] [35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[0.677s] [100%] Built target serial_node
+[0.695s] Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4
+[0.862s] Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kurisaw/Desktop/catkin_ws/build/my_serial_node
+[0.896s] -- Install configuration: ""
+[0.897s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib/my_serial_node/serial_node
+[0.899s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node//launch
+[0.900s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/ament_index/resource_index/package_run_dependencies/my_serial_node
+[0.901s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/ament_index/resource_index/parent_prefix_path/my_serial_node
+[0.907s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/ament_prefix_path.sh
+[0.908s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/ament_prefix_path.dsv
+[0.909s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/path.sh
+[0.911s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/path.dsv
+[0.911s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.bash
+[0.912s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.sh
+[0.912s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.zsh
+[0.912s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.dsv
+[0.913s] -- Installing: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.dsv
+[0.914s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/ament_index/resource_index/packages/my_serial_node
+[0.914s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/cmake/my_serial_nodeConfig.cmake
+[0.915s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/cmake/my_serial_nodeConfig-version.cmake
+[0.915s] -- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.xml
+[0.923s] Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kurisaw/Desktop/catkin_ws/build/my_serial_node

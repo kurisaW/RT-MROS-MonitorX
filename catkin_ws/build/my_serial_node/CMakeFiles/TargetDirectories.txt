@@ -1,0 +1,10 @@
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/uninstall.dir
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/my_serial_node_uninstall.dir
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/serial_node.dir
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/test.dir
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/edit_cache.dir
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/rebuild_cache.dir
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/list_install_components.dir
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/install.dir
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/install/local.dir
+/home/kurisaw/Desktop/catkin_ws/build/my_serial_node/CMakeFiles/install/strip.dir

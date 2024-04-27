@@ -1,0 +1,3743 @@
+{
+  "guid": "GUID60494064-1060278S3983109",
+  "deepid": -973439743,
+  "locked": false,
+  "properties": [
+    {
+      "nid": -1508937261,
+      "strtype": "OBJECT/Name",
+      "strval": "next figure",
+      "InheritedType": 10
+    },
+    {
+      "nid": -1652554049,
+      "strtype": "OBJECT/Layout",
+      "InheritedType": 1
+    },
+    {
+      "Flow": 0,
+      "Wrap": false,
+      "Reversed": false,
+      "MainAlignment": 0,
+      "CrossAlignment": 0,
+      "TrackAlignment": 0,
+      "LayoutType": 0,
+      "nid": -800290421,
+      "strtype": "OBJECT/Layout_type",
+      "strval": "No_layout",
+      "InheritedType": 13
+    },
+    {
+      "nid": -1561074595,
+      "strtype": "OBJECT/Transform",
+      "InheritedType": 1
+    },
+    {
+      "nid": 77188711,
+      "flags": 17,
+      "strtype": "OBJECT/Position",
+      "intarray": [
+        -12,
+        83
+      ],
+      "InheritedType": 7
+    },
+    {
+      "nid": -13568957,
+      "flags": 51,
+      "strtype": "OBJECT/Size",
+      "intarray": [
+        48,
+        48
+      ],
+      "InheritedType": 7
+    },
+    {
+      "nid": -1281578070,
+      "strtype": "OBJECT/Align",
+      "strval": "CENTER",
+      "InheritedType": 3
+    },
+    {
+      "nid": 826554868,
+      "strtype": "OBJECT/Flags",
+      "InheritedType": 1
+    },
+    {
+      "nid": -1733265152,
+      "strtype": "OBJECT/Hidden",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -377328371,
+      "strtype": "OBJECT/Clickable",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1608982443,
+      "strtype": "OBJECT/Checkable",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -127509811,
+      "strtype": "OBJECT/Press_lock",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1224566470,
+      "strtype": "OBJECT/Click_focusable",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": -299079839,
+      "strtype": "OBJECT/Adv_hittest",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": 1246892941,
+      "strtype": "OBJECT/Ignore_layout",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1187548276,
+      "strtype": "OBJECT/Floating",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -2040963380,
+      "strtype": "OBJECT/Overflow_visible",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": 138801514,
+      "strtype": "OBJECT/Flex_in_new_track",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1852283065,
+      "strtype": "OBJECT/Event_bubble",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1490973939,
+      "strtype": "OBJECT/Gesture_bubble",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": -122433246,
+      "strtype": "OBJECT/Snappable",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": -573885515,
+      "strtype": "OBJECT/Scrollable",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": 591592164,
+      "strtype": "OBJECT/Scroll_elastic",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1870134218,
+      "strtype": "OBJECT/Scroll_momentum",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": 86659893,
+      "strtype": "OBJECT/Scroll_on_focus",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1171828426,
+      "strtype": "OBJECT/Scroll_chain",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": 118874011,
+      "strtype": "OBJECT/Scroll_with_arrow",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1442221914,
+      "strtype": "OBJECT/Scroll_one",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -253170569,
+      "strtype": "OBJECT/Scrollbar_mode",
+      "strval": "AUTO",
+      "InheritedType": 3
+    },
+    {
+      "nid": 1654004895,
+      "strtype": "OBJECT/Scroll_direction",
+      "strval": "ALL",
+      "InheritedType": 3
+    },
+    {
+      "nid": 1968356474,
+      "strtype": "OBJECT/States",
+      "InheritedType": 1
+    },
+    {
+      "nid": 1489208082,
+      "strtype": "OBJECT/Checked",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": 169634685,
+      "strtype": "OBJECT/Disabled",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": 1471342327,
+      "strtype": "OBJECT/Focused",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1144134465,
+      "strtype": "OBJECT/Pressed",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1360309942,
+      "strtype": "OBJECT/User_1",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -1752154834,
+      "strtype": "OBJECT/User_2",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": 1976215281,
+      "strtype": "OBJECT/User_3",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": 1961486597,
+      "strtype": "OBJECT/User_4",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": -616397356,
+      "strtype": "IMAGE/Image",
+      "InheritedType": 1
+    },
+    {
+      "nid": -2034579481,
+      "strtype": "IMAGE/Asset",
+      "strval": "assets\\startup.png",
+      "InheritedType": 5
+    },
+    {
+      "nid": 2144872412,
+      "strtype": "IMAGE/Pivot",
+      "intarray": [
+        0,
+        0
+      ],
+      "InheritedType": 7
+    },
+    {
+      "nid": 1294763184,
+      "strtype": "IMAGE/Rotation",
+      "InheritedType": 6
+    },
+    {
+      "nid": -2058285702,
+      "strtype": "IMAGE/Scale",
+      "integer": 256,
+      "InheritedType": 6
+    },
+    {
+      "part": "lv.PART.MAIN",
+      "childs": [
+        {
+          "nid": 1593882609,
+          "strtype": "_style/StyleState",
+          "strval": "DEFAULT",
+          "childs": [
+            {
+              "nid": 734990427,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1714568489,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1119465374,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 499864360,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 728591475,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -2137667249,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": 496489812,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 840806745,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1264440674,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "",
+              "InheritedType": 5
+            },
+            {
+              "nid": 1282024251,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 1957093311,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -474311627,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -1976621779,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": -722863022,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -670685480,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": 1717738951,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 587346655,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 496832494,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 576168879,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -273653505,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": 41356525,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 166301318,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -102149769,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -895821650,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": -535274494,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 2035878178,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 2144657406,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1539156361,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": 40581464,
+          "strtype": "_style/StyleState",
+          "strval": "CHECKED",
+          "childs": [
+            {
+              "nid": 1432322065,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": -747961220,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1146377706,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1933622270,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 968942737,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -155403338,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": 1610764921,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -547208917,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1359986912,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": 461069977,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 2129962641,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 650560111,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 1829299990,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1528628539,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 93115671,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -354883795,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -944374666,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1768718889,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 104276273,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1231517764,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1971220250,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1877325522,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1258573554,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -979829526,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1757827505,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -958703130,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 222959529,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -2125576906,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": -362212978,
+          "strtype": "_style/StyleState",
+          "strval": "PRESSED",
+          "childs": [
+            {
+              "nid": -698486330,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1205548255,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": 1767016574,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -346668413,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1788153326,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1955249694,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": 677896474,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -12451593,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -498241399,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": -1780334208,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": -879924133,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1385947613,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 1475799371,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1533976352,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -616698678,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1008148017,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 1292466092,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 809769291,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -317730344,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1442891701,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1778347096,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1811055421,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1276908934,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1133878051,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": -2092345198,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 1642495302,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": -310266616,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -291114423,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": -1406682127,
+          "strtype": "_style/StyleState",
+          "strval": "DISABLED",
+          "childs": [
+            {
+              "nid": 61540190,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1469726526,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1593051769,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1547364671,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1155541458,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 763974068,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": 759320467,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 1162493427,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 986546331,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": -1089404874,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 1240543939,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -560330427,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 747617464,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1967651033,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1109306898,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": 1513154243,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -971839680,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 35001775,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 430736095,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1927915393,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1666276675,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1214571414,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 592488138,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 467910284,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": -127481836,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -2087711960,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": -1767128788,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 689106183,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": -1427647113,
+          "strtype": "_style/StyleState",
+          "strval": "SCROLLED",
+          "childs": [
+            {
+              "nid": -2101949121,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1632078782,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": 705747310,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1666445323,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 614956635,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -471050245,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": -81442792,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 538279573,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -465389306,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": 1293013503,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 2069243710,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 849816236,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 1282392400,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": -2020447472,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1015027954,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1889545255,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -676653287,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 2013157872,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 869097576,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -177486808,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": 2006441788,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1145837344,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -798732145,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -2066496540,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": -458212667,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 661687972,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 511861344,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1885731816,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": 67718272,
+          "strtype": "_style/StyleState",
+          "strval": "FOCUSED",
+          "childs": [
+            {
+              "nid": 233494851,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1689904800,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": 1988458101,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1753880720,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -764029750,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -2028124848,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": 26601566,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -946062353,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -9423204,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": -1935156957,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 692142251,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 409902181,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 249195537,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": 330099789,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1118659803,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": 1538198611,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1622946097,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 176941532,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1464231905,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -219802893,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": -410763465,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -2132791957,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -2139411886,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 283965889,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": -44140454,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -301369166,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 1409092457,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1739570346,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": 798478800,
+          "strtype": "_style/StyleState",
+          "strval": "FOCUS_KEY",
+          "childs": [
+            {
+              "nid": -1413515652,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": 925015273,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": 501935354,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1380926851,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -495252525,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 648784325,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": 28515803,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -321762100,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 809003943,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": 1275490897,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 831243748,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -2033848201,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 680908492,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": -837604968,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1969714885,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1375711546,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 2022750748,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": -176392428,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 336472503,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -404877670,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": -954141116,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -936977976,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1154104262,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1996052026,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": 671043737,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 1858486869,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 34906509,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1092656895,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": -2031803938,
+          "strtype": "_style/StyleState",
+          "strval": "CHECKED|FOCUSED",
+          "childs": [
+            {
+              "nid": -934891753,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": 463564193,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": -2051410488,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -14031253,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1706933606,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -2115514083,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": 317071881,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -2064652554,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 403869877,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": -900374979,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 385393415,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -282345964,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -729070006,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1574553192,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -432104397,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1154133351,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1919497600,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": -620115735,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1945077541,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1757475375,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": -376544227,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -67738599,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -334747499,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1843288005,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1831546327,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -834757165,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 649229890,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1543076411,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": 1161291412,
+          "strtype": "_style/StyleState",
+          "strval": "CHECKED|PRESSED",
+          "childs": [
+            {
+              "nid": -267889321,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1041367002,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": 179335219,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 880754093,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 99618170,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1127556276,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": 782510485,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 236898878,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1745454103,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": -643996051,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 200742012,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -784652139,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 27601936,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1266365153,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1728755394,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -2138658002,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -2096789572,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": -211690442,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -300817125,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1972156480,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1649199426,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1534551684,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1841428533,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 212928643,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1612569550,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1915285308,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": -2040940137,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1168974049,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": 626706745,
+          "strtype": "_style/StyleState",
+          "strval": "CHECKED|FOCUS_KEY",
+          "childs": [
+            {
+              "nid": -1406722104,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": 172522179,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": 482707677,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 322354198,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 2102749150,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1159613542,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": -778399903,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -2071990290,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1925076110,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": -2120521924,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 257875050,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1380997310,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 1704374634,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1256720237,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 2038376916,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -794006071,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1172647294,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": -71784343,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 268360486,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -2059405252,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": -202293889,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1271217610,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1076765705,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1140827798,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1148731039,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 2104302680,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 2051191029,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -397850939,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": -550286475,
+          "strtype": "_style/StyleState",
+          "strval": "USER_1",
+          "childs": [
+            {
+              "nid": 567756709,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": -347892775,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1732744792,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 2135974625,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -218594723,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1183121337,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1707066692,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 1382932053,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1624802588,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": -1319126592,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 166377569,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -662455344,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 542670066,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": 876417863,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1914209772,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1984361327,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1600073662,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1558720733,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1603761089,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -616271218,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": 350611880,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 322663747,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1199448314,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 832392691,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": 401829972,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1498311652,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 1577801945,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 645521709,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": -975664141,
+          "strtype": "_style/StyleState",
+          "strval": "USER_2",
+          "childs": [
+            {
+              "nid": 1042172698,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": -2018792537,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": 1534952132,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1309139080,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1083786597,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 989139486,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": 1503066258,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -905667177,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1504680872,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": 925408425,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 1773974383,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -141729677,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": 462313503,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1772989293,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 879628252,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1091812543,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 546737893,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1301803862,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -488974409,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1901323503,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": 873813437,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1372420599,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1135297318,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 959752545,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1407048519,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 75879089,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": -1188302384,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1815387547,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": 1638815871,
+          "strtype": "_style/StyleState",
+          "strval": "USER_3",
+          "childs": [
+            {
+              "nid": -113841765,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": 616903906,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": -1494514013,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -336705186,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -676864352,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -279141047,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": -340652085,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -687695172,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1618632290,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": -123838979,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 1163341196,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1525771715,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -1310062277,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1928455519,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1680315961,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": 1583090894,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": 1469105635,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 419259224,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1492629673,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -950364516,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": 2057052634,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 946955793,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1258552683,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -172004399,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1901822295,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -2141595450,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 373255536,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1029553807,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": 921143161,
+          "strtype": "_style/StyleState",
+          "strval": "USER_4",
+          "childs": [
+            {
+              "nid": 186163089,
+              "flags": 3145728,
+              "strtype": "_style/Background",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1372516581,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Radius",
+              "InheritedType": 6
+            },
+            {
+              "nid": 484746275,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                255,
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1935912603,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                255,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1268878206,
+              "flags": 2097152,
+              "strtype": "_style/Bg_gradient_params",
+              "intarray": [
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -1823196451,
+              "flags": 2097152,
+              "strtype": "_style/Gradient direction",
+              "strval": "NONE",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1813331588,
+              "flags": 2097152,
+              "strtype": "_style/Clip_corner",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -819415183,
+              "flags": 3145728,
+              "strtype": "_style/Background_image",
+              "InheritedType": 1
+            },
+            {
+              "nid": -1403680637,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image",
+              "strval": "noimage",
+              "InheritedType": 5
+            },
+            {
+              "nid": 405980065,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_opa",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": 1689677988,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Recolor",
+              "intarray": [
+                64,
+                64,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -752829849,
+              "flags": 2097152,
+              "strtype": "_style/Bg_Image_Tiled",
+              "strval": "False",
+              "InheritedType": 2
+            },
+            {
+              "nid": -1560497917,
+              "flags": 3145728,
+              "strtype": "_style/Border",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1743538221,
+              "flags": 2097152,
+              "strtype": "_style/Border_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -989077223,
+              "flags": 2097152,
+              "strtype": "_style/Border width",
+              "InheritedType": 6
+            },
+            {
+              "nid": -983195226,
+              "flags": 2097152,
+              "strtype": "_style/Border side",
+              "strval": "FULL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1773963203,
+              "flags": 3145728,
+              "strtype": "_style/Outline",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1345052046,
+              "flags": 2097152,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 177993898,
+              "flags": 2097152,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -208628369,
+              "flags": 3145728,
+              "strtype": "_style/Shadow",
+              "InheritedType": 1
+            },
+            {
+              "nid": 1822310529,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -958280820,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 1012944802,
+              "flags": 2097152,
+              "strtype": "_style/Shadow_offset",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": -172534524,
+              "flags": 3145728,
+              "strtype": "_style/Blend",
+              "InheritedType": 1
+            },
+            {
+              "nid": -536678850,
+              "flags": 2097152,
+              "strtype": "_style/Blend mode",
+              "strval": "NORMAL",
+              "InheritedType": 3
+            },
+            {
+              "nid": -1181324117,
+              "flags": 2097152,
+              "strtype": "_style/Blend_opacity",
+              "integer": 255,
+              "InheritedType": 6
+            },
+            {
+              "nid": -1538001125,
+              "flags": 3145728,
+              "strtype": "_style/Image",
+              "InheritedType": 1
+            },
+            {
+              "nid": 811004192,
+              "flags": 2097152,
+              "strtype": "_style/Image_reColor",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        }
+      ],
+      "nid": 1336785702,
+      "strtype": "IMAGE/Style_main",
+      "strval": "lv.PART.MAIN, Rectangle, Image",
+      "InheritedType": 11
+    },
+    {
+      "disabled": false,
+      "nid": 1593380462,
+      "strtype": "_event/EventHandler",
+      "strval": "PRESSED",
+      "childs": [
+        {
+          "nid": -1059034662,
+          "strtype": "_custom/name",
+          "strval": "entry",
+          "InheritedType": 10
+        },
+        {
+          "nid": -347125109,
+          "strtype": "_custom/condition_C",
+          "strval": "",
+          "InheritedType": 10
+        },
+        {
+          "nid": 1564228765,
+          "strtype": "_custom/condition_P",
+          "strval": "",
+          "InheritedType": 10
+        },
+        {
+          "nid": -793124006,
+          "strtype": "_event/action",
+          "strval": "CHANGE SCREEN",
+          "childs": [
+            {
+              "nid": -2060883338,
+              "strtype": "CHANGE SCREEN/Name",
+              "strval": "CHANGE SCREEN",
+              "InheritedType": 10
+            },
+            {
+              "nid": 367695703,
+              "strtype": "CHANGE SCREEN/Call",
+              "strval": "ChangeScreen( <{Screen_to}>, lv.SCR_LOAD_ANIM.<{Fade_mode}>, <{Speed}>, <{Delay}>)",
+              "InheritedType": 10
+            },
+            {
+              "nid": 372982621,
+              "strtype": "CHANGE SCREEN/CallC",
+              "strval": "_ui_screen_change( &<{Screen_to}>, LV_SCR_LOAD_ANIM_<{Fade_mode}>, <{Speed}>, <{Delay}>, &<{Screen_to}>_screen_init);",
+              "InheritedType": 10
+            },
+            {
+              "nid": 321421211,
+              "strtype": "CHANGE SCREEN/Screen_to",
+              "strval": "GUID59994941-1056733S4993109",
+              "InheritedType": 9
+            },
+            {
+              "nid": 946758193,
+              "strtype": "CHANGE SCREEN/Fade_mode",
+              "strval": "FADE_ON",
+              "InheritedType": 3
+            },
+            {
+              "nid": 613133700,
+              "strtype": "CHANGE SCREEN/Speed",
+              "integer": 500,
+              "InheritedType": 6
+            },
+            {
+              "nid": 1375547685,
+              "strtype": "CHANGE SCREEN/Delay",
+              "InheritedType": 6
+            }
+          ],
+          "InheritedType": 10
+        }
+      ],
+      "InheritedType": 4
+    }
+  ],
+  "saved_objtypeKey": "IMAGE"
+}

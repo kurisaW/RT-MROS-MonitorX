@@ -1,0 +1,14 @@
+[0.957s] Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4
+[1.140s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o[0m
+[26.536s] [100%] [32m[1mLinking CXX executable serial_node[0m
+[28.280s] /usr/bin/ld: CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o: in function `sendMessage(float, float)':
+[28.280s] my_serial_node.cpp:(.text+0x27d): undefined reference to `cJSON_CreateObject'
+[28.287s] /usr/bin/ld: my_serial_node.cpp:(.text+0x299): undefined reference to `cJSON_AddNumberToObject'
+[28.293s] /usr/bin/ld: my_serial_node.cpp:(.text+0x2b1): undefined reference to `cJSON_AddNumberToObject'
+[28.294s] /usr/bin/ld: my_serial_node.cpp:(.text+0x2bd): undefined reference to `cJSON_PrintUnformatted'
+[28.294s] /usr/bin/ld: my_serial_node.cpp:(.text+0x2f0): undefined reference to `cJSON_Delete'
+[28.298s] collect2: error: ld returned 1 exit status
+[28.306s] make[2]: *** [CMakeFiles/serial_node.dir/build.make:159: serial_node] Error 1
+[28.308s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+[28.312s] make: *** [Makefile:146: all] Error 2
+[28.339s] Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4

@@ -1,0 +1,26 @@
+[0.416s] Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[0.612s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o[0m
+[3.841s] [01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:[m[K In member function ‘[01m[Kvoid PoseSubscriber::callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.843s] [01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:65:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kconst void*[m[K’
+[3.843s]    65 |                 write(serial_fd, [01;31m[Kmsg->x[m[K, sizeof(msg->x));
+[3.844s]       |                                  [01;31m[K~~~~~^[m[K
+[3.844s]       |                                       [01;31m[K|[m[K
+[3.844s]       |                                       [01;31m[Kturtlesim::msg::Pose_<std::allocator<void> >::_x_type {aka float}[m[K
+[3.844s] In file included from [01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:4[m[K:
+[3.845s] [01m[K/usr/include/unistd.h:366:45:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’
+[3.845s]   366 | extern ssize_t write (int __fd, [01;36m[Kconst void *__buf[m[K, size_t __n) __wur;
+[3.845s]       |                                 [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[3.846s] [01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:67:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kconst void*[m[K’
+[3.846s]    67 |                 write(serial_fd, [01;31m[Kmsg->y[m[K, sizeof(msg->y));
+[3.846s]       |                                  [01;31m[K~~~~~^[m[K
+[3.846s]       |                                       [01;31m[K|[m[K
+[3.847s]       |                                       [01;31m[Kturtlesim::msg::Pose_<std::allocator<void> >::_y_type {aka float}[m[K
+[3.847s] In file included from [01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:4[m[K:
+[3.847s] [01m[K/usr/include/unistd.h:366:45:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’
+[3.848s]   366 | extern ssize_t write (int __fd, [01;36m[Kconst void *__buf[m[K, size_t __n) __wur;
+[3.848s]       |                                 [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[6.084s] make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o] Error 1
+[6.084s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+[6.085s] make: *** [Makefile:146: all] Error 2
+[6.104s] Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4

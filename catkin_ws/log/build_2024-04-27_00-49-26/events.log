@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.001685] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001811] (my_serial_node) JobQueued: {'identifier': 'my_serial_node', 'dependencies': OrderedDict()}
+[0.001940] (my_serial_node) JobStarted: {'identifier': 'my_serial_node'}
+[0.097963] (-) TimerEvent: {}
+[0.202643] (-) TimerEvent: {}
+[0.306732] (-) TimerEvent: {}
+[0.413523] (-) TimerEvent: {}
+[0.429769] (my_serial_node) JobProgress: {'identifier': 'my_serial_node', 'progress': 'cmake'}
+[0.439573] (my_serial_node) JobProgress: {'identifier': 'my_serial_node', 'progress': 'build'}
+[0.442210] (my_serial_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node', '--', '-j4', '-l4'], 'cwd': '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kurisaw'), ('SSH_AGENT_PID', '1725'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib:/home/kurisaw/catkin_ws/install/rviz_imu_plugin/lib:/home/kurisaw/catkin_ws/install/imu_filter_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kurisaw'), ('OLDPWD', '/home/kurisaw/Desktop/catkin_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install:/home/kurisaw/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kurisaw'), ('JOURNAL_STREAM', '8:54207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kurisaw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kurisaw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1761,unix/ubuntu:/tmp/.ICE-unix/1761'), ('INVOCATION_ID', '06d5d1db2fa1458aa2c0f2c8a491fdac'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/817e31c8_646e_480c_beed_defbeb373686'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy')]), 'shell': False}
+[0.514742] (-) TimerEvent: {}
+[0.617996] (-) TimerEvent: {}
+[0.719128] (-) TimerEvent: {}
+[0.797937] (my_serial_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_node\x1b[0m\n'}
+[0.819990] (-) TimerEvent: {}
+[0.921033] (-) TimerEvent: {}
+[0.946163] (my_serial_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_node.dir/src/my_serial_node.cpp.o\x1b[0m\n'}
+[1.021367] (-) TimerEvent: {}
+[1.122476] (-) TimerEvent: {}
+[1.223434] (-) TimerEvent: {}
+[1.324504] (-) TimerEvent: {}
+[1.425499] (-) TimerEvent: {}
+[1.526429] (-) TimerEvent: {}
+[1.627522] (-) TimerEvent: {}
+[1.728535] (-) TimerEvent: {}
+[1.829411] (-) TimerEvent: {}
+[1.931073] (-) TimerEvent: {}
+[2.032562] (-) TimerEvent: {}
+[2.133734] (-) TimerEvent: {}
+[2.235813] (-) TimerEvent: {}
+[2.337830] (-) TimerEvent: {}
+[2.440695] (-) TimerEvent: {}
+[2.541540] (-) TimerEvent: {}
+[2.642322] (-) TimerEvent: {}
+[2.743618] (-) TimerEvent: {}
+[2.844783] (-) TimerEvent: {}
+[2.946616] (-) TimerEvent: {}
+[3.047786] (-) TimerEvent: {}
+[3.148437] (-) TimerEvent: {}
+[3.249257] (-) TimerEvent: {}
+[3.350100] (-) TimerEvent: {}
+[3.451146] (-) TimerEvent: {}
+[3.552348] (-) TimerEvent: {}
+[3.653631] (-) TimerEvent: {}
+[3.754668] (-) TimerEvent: {}
+[3.855522] (-) TimerEvent: {}
+[3.956474] (-) TimerEvent: {}
+[4.057465] (-) TimerEvent: {}
+[4.159160] (-) TimerEvent: {}
+[4.260295] (-) TimerEvent: {}
+[4.361142] (-) TimerEvent: {}
+[4.462083] (-) TimerEvent: {}
+[4.563125] (-) TimerEvent: {}
+[4.664097] (-) TimerEvent: {}
+[4.765079] (-) TimerEvent: {}
+[4.867055] (-) TimerEvent: {}
+[4.968625] (-) TimerEvent: {}
+[5.070056] (-) TimerEvent: {}
+[5.171086] (-) TimerEvent: {}
+[5.272649] (-) TimerEvent: {}
+[5.373305] (-) TimerEvent: {}
+[5.474753] (-) TimerEvent: {}
+[5.575689] (-) TimerEvent: {}
+[5.677262] (-) TimerEvent: {}
+[5.778806] (-) TimerEvent: {}
+[5.879749] (-) TimerEvent: {}
+[5.980602] (-) TimerEvent: {}
+[6.082089] (-) TimerEvent: {}
+[6.182915] (-) TimerEvent: {}
+[6.284315] (-) TimerEvent: {}
+[6.385117] (-) TimerEvent: {}
+[6.485770] (-) TimerEvent: {}
+[6.586549] (-) TimerEvent: {}
+[6.687691] (-) TimerEvent: {}
+[6.789404] (-) TimerEvent: {}
+[6.890558] (-) TimerEvent: {}
+[6.991446] (-) TimerEvent: {}
+[7.092557] (-) TimerEvent: {}
+[7.193829] (-) TimerEvent: {}
+[7.294799] (-) TimerEvent: {}
+[7.395834] (-) TimerEvent: {}
+[7.496830] (-) TimerEvent: {}
+[7.597447] (-) TimerEvent: {}
+[7.698309] (-) TimerEvent: {}
+[7.799184] (-) TimerEvent: {}
+[7.900329] (-) TimerEvent: {}
+[8.001222] (-) TimerEvent: {}
+[8.102068] (-) TimerEvent: {}
+[8.202694] (-) TimerEvent: {}
+[8.303671] (-) TimerEvent: {}
+[8.404768] (-) TimerEvent: {}
+[8.505660] (-) TimerEvent: {}
+[8.606676] (-) TimerEvent: {}
+[8.707719] (-) TimerEvent: {}
+[8.809016] (-) TimerEvent: {}
+[8.910742] (-) TimerEvent: {}
+[9.011684] (-) TimerEvent: {}
+[9.112825] (-) TimerEvent: {}
+[9.214453] (-) TimerEvent: {}
+[9.315276] (-) TimerEvent: {}
+[9.416470] (-) TimerEvent: {}
+[9.518266] (-) TimerEvent: {}
+[9.619457] (-) TimerEvent: {}
+[9.720317] (-) TimerEvent: {}
+[9.821267] (-) TimerEvent: {}
+[9.922457] (-) TimerEvent: {}
+[10.023283] (-) TimerEvent: {}
+[10.124040] (-) TimerEvent: {}
+[10.225081] (-) TimerEvent: {}
+[10.325795] (-) TimerEvent: {}
+[10.427436] (-) TimerEvent: {}
+[10.528862] (-) TimerEvent: {}
+[10.629689] (-) TimerEvent: {}
+[10.731252] (-) TimerEvent: {}
+[10.832468] (-) TimerEvent: {}
+[10.933386] (-) TimerEvent: {}
+[11.034546] (-) TimerEvent: {}
+[11.136392] (-) TimerEvent: {}
+[11.238090] (-) TimerEvent: {}
+[11.339282] (-) TimerEvent: {}
+[11.440997] (-) TimerEvent: {}
+[11.542015] (-) TimerEvent: {}
+[11.643007] (-) TimerEvent: {}
+[11.744015] (-) TimerEvent: {}
+[11.844961] (-) TimerEvent: {}
+[11.946006] (-) TimerEvent: {}
+[12.047014] (-) TimerEvent: {}
+[12.148686] (-) TimerEvent: {}
+[12.249493] (-) TimerEvent: {}
+[12.350563] (-) TimerEvent: {}
+[12.452124] (-) TimerEvent: {}
+[12.553071] (-) TimerEvent: {}
+[12.654637] (-) TimerEvent: {}
+[12.755555] (-) TimerEvent: {}
+[12.856638] (-) TimerEvent: {}
+[12.957595] (-) TimerEvent: {}
+[13.058900] (-) TimerEvent: {}
+[13.160552] (-) TimerEvent: {}
+[13.261887] (-) TimerEvent: {}
+[13.362961] (-) TimerEvent: {}
+[13.464332] (-) TimerEvent: {}
+[13.568769] (-) TimerEvent: {}
+[13.669450] (-) TimerEvent: {}
+[13.770670] (-) TimerEvent: {}
+[13.871509] (-) TimerEvent: {}
+[13.972172] (-) TimerEvent: {}
+[14.073227] (-) TimerEvent: {}
+[14.175148] (-) TimerEvent: {}
+[14.277164] (-) TimerEvent: {}
+[14.377930] (-) TimerEvent: {}
+[14.478795] (-) TimerEvent: {}
+[14.580008] (-) TimerEvent: {}
+[14.684855] (-) TimerEvent: {}
+[14.786897] (-) TimerEvent: {}
+[14.887797] (-) TimerEvent: {}
+[14.988777] (-) TimerEvent: {}
+[15.089808] (-) TimerEvent: {}
+[15.191798] (-) TimerEvent: {}
+[15.293414] (-) TimerEvent: {}
+[15.394423] (-) TimerEvent: {}
+[15.495503] (-) TimerEvent: {}
+[15.596363] (-) TimerEvent: {}
+[15.697405] (-) TimerEvent: {}
+[15.799321] (-) TimerEvent: {}
+[15.900416] (-) TimerEvent: {}
+[16.001287] (-) TimerEvent: {}
+[16.102270] (-) TimerEvent: {}
+[16.203088] (-) TimerEvent: {}
+[16.304988] (-) TimerEvent: {}
+[16.405965] (-) TimerEvent: {}
+[16.507117] (-) TimerEvent: {}
+[16.608089] (-) TimerEvent: {}
+[16.709016] (-) TimerEvent: {}
+[16.811273] (-) TimerEvent: {}
+[16.912846] (-) TimerEvent: {}
+[17.013989] (-) TimerEvent: {}
+[17.114810] (-) TimerEvent: {}
+[17.216426] (-) TimerEvent: {}
+[17.317494] (-) TimerEvent: {}
+[17.418848] (-) TimerEvent: {}
+[17.520613] (-) TimerEvent: {}
+[17.621314] (-) TimerEvent: {}
+[17.722534] (-) TimerEvent: {}
+[17.823621] (-) TimerEvent: {}
+[17.924481] (-) TimerEvent: {}
+[18.025351] (-) TimerEvent: {}
+[18.126981] (-) TimerEvent: {}
+[18.227938] (-) TimerEvent: {}
+[18.328991] (-) TimerEvent: {}
+[18.429944] (-) TimerEvent: {}
+[18.530856] (-) TimerEvent: {}
+[18.632078] (-) TimerEvent: {}
+[18.732926] (-) TimerEvent: {}
+[18.833930] (-) TimerEvent: {}
+[18.935014] (-) TimerEvent: {}
+[18.982873] (my_serial_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial_node\x1b[0m\n'}
+[19.036240] (-) TimerEvent: {}
+[19.137524] (-) TimerEvent: {}
+[19.238501] (-) TimerEvent: {}
+[19.340349] (-) TimerEvent: {}
+[19.442906] (-) TimerEvent: {}
+[19.544229] (-) TimerEvent: {}
+[19.645280] (-) TimerEvent: {}
+[19.746296] (-) TimerEvent: {}
+[19.847544] (-) TimerEvent: {}
+[19.948118] (-) TimerEvent: {}
+[20.049022] (-) TimerEvent: {}
+[20.149700] (-) TimerEvent: {}
+[20.250747] (-) TimerEvent: {}
+[20.351946] (-) TimerEvent: {}
+[20.452932] (-) TimerEvent: {}
+[20.498225] (my_serial_node) StdoutLine: {'line': b'[100%] Built target serial_node\n'}
+[20.528896] (my_serial_node) CommandEnded: {'returncode': 0}
+[20.553640] (-) TimerEvent: {}
+[20.655745] (-) TimerEvent: {}
+[20.676192] (my_serial_node) JobProgress: {'identifier': 'my_serial_node', 'progress': 'install'}
+[20.704767] (my_serial_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node'], 'cwd': '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kurisaw'), ('SSH_AGENT_PID', '1725'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib:/home/kurisaw/catkin_ws/install/rviz_imu_plugin/lib:/home/kurisaw/catkin_ws/install/imu_filter_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kurisaw'), ('OLDPWD', '/home/kurisaw/Desktop/catkin_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install:/home/kurisaw/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kurisaw'), ('JOURNAL_STREAM', '8:54207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kurisaw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kurisaw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1761,unix/ubuntu:/tmp/.ICE-unix/1761'), ('INVOCATION_ID', '06d5d1db2fa1458aa2c0f2c8a491fdac'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/817e31c8_646e_480c_beed_defbeb373686'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kurisaw/Desktop/catkin_ws/install/turtlesim:/home/kurisaw/Desktop/catkin_ws/install/my_serial_node:/home/kurisaw/catkin_ws/install/imu_tools:/home/kurisaw/catkin_ws/install/rviz_imu_plugin:/home/kurisaw/catkin_ws/install/imu_filter_madgwick:/home/kurisaw/catkin_ws/install/imu_complementary_filter:/opt/ros/foxy')]), 'shell': False}
+[20.738388] (my_serial_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.748122] (my_serial_node) StdoutLine: {'line': b'-- Installing: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib/my_serial_node/serial_node\n'}
+[20.761631] (-) TimerEvent: {}
+[20.837811] (my_serial_node) StdoutLine: {'line': b'-- Set runtime path of "/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib/my_serial_node/serial_node" to ""\n'}
+[20.838180] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node//launch\n'}
+[20.839168] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/ament_index/resource_index/package_run_dependencies/my_serial_node\n'}
+[20.840659] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/ament_index/resource_index/parent_prefix_path/my_serial_node\n'}
+[20.843861] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/ament_prefix_path.sh\n'}
+[20.844112] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/ament_prefix_path.dsv\n'}
+[20.844330] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/path.sh\n'}
+[20.844834] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/environment/path.dsv\n'}
+[20.845033] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.bash\n'}
+[20.845223] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.sh\n'}
+[20.845946] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.zsh\n'}
+[20.846566] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/local_setup.dsv\n'}
+[20.847577] (my_serial_node) StdoutLine: {'line': b'-- Installing: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.dsv\n'}
+[20.847853] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/ament_index/resource_index/packages/my_serial_node\n'}
+[20.848115] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/cmake/my_serial_nodeConfig.cmake\n'}
+[20.848378] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/cmake/my_serial_nodeConfig-version.cmake\n'}
+[20.851785] (my_serial_node) StdoutLine: {'line': b'-- Up-to-date: /home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.xml\n'}
+[20.855045] (my_serial_node) CommandEnded: {'returncode': 0}
+[20.877779] (-) TimerEvent: {}
+[20.979887] (-) TimerEvent: {}
+[21.109154] (-) TimerEvent: {}
+[21.213179] (-) TimerEvent: {}
+[21.315893] (-) TimerEvent: {}
+[21.420202] (-) TimerEvent: {}
+[21.522610] (-) TimerEvent: {}
+[21.627071] (-) TimerEvent: {}
+[21.702353] (my_serial_node) JobEnded: {'identifier': 'my_serial_node', 'rc': 0}
+[21.710729] (-) EventReactorShutdown: {}

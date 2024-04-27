@@ -1,0 +1,254 @@
+[4.238s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.239s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb873a6a640>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb873a6a640>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb873a0fd00>)
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.471s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kurisaw/Desktop/catkin_ws'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_serial_node) by extensions ['ignore', 'ignore_ament_install']
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_serial_node) by extension 'ignore'
+[4.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_serial_node) by extension 'ignore_ament_install'
+[4.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_serial_node) by extensions ['colcon_pkg']
+[4.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_serial_node) by extension 'colcon_pkg'
+[4.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_serial_node) by extensions ['colcon_meta']
+[4.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_serial_node) by extension 'colcon_meta'
+[4.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_serial_node) by extensions ['ros']
+[4.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_serial_node) by extension 'ros'
+[4.559s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_serial_node' with type 'ros.ament_cmake' and name 'my_serial_node'
+[4.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[4.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[4.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[4.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[4.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[4.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[4.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[4.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[4.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[4.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[4.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[4.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[4.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[4.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[4.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[4.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[4.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[4.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[4.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.074s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/kurisaw/Desktop/catkin_ws/install
+[5.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/kurisaw/catkin_ws/install
+[5.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[5.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.525s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /home/kurisaw/Desktop/catkin_ws/install/turtlesim, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[5.600s] Level 5:colcon.colcon_core.verb:set package 'my_serial_node' build argument 'cmake_args' from command line to 'None'
+[5.601s] Level 5:colcon.colcon_core.verb:set package 'my_serial_node' build argument 'cmake_target' from command line to 'None'
+[5.601s] Level 5:colcon.colcon_core.verb:set package 'my_serial_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.601s] Level 5:colcon.colcon_core.verb:set package 'my_serial_node' build argument 'cmake_clean_cache' from command line to 'False'
+[5.601s] Level 5:colcon.colcon_core.verb:set package 'my_serial_node' build argument 'cmake_clean_first' from command line to 'False'
+[5.601s] Level 5:colcon.colcon_core.verb:set package 'my_serial_node' build argument 'cmake_force_configure' from command line to 'False'
+[5.601s] Level 5:colcon.colcon_core.verb:set package 'my_serial_node' build argument 'ament_cmake_args' from command line to 'None'
+[5.601s] Level 5:colcon.colcon_core.verb:set package 'my_serial_node' build argument 'catkin_cmake_args' from command line to 'None'
+[5.601s] Level 5:colcon.colcon_core.verb:set package 'my_serial_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.601s] DEBUG:colcon.colcon_core.verb:Building package 'my_serial_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node', 'merge_install': False, 'path': '/home/kurisaw/Desktop/catkin_ws/src/my_serial_node', 'symlink_install': False, 'test_result_base': None}
+[5.662s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[5.662s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[5.662s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.662s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[5.662s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[5.663s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[5.663s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[5.663s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[5.663s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.663s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kurisaw/Desktop/catkin_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kurisaw/Desktop/catkin_ws/install/turtlesim', 'merge_install': False, 'path': '/home/kurisaw/Desktop/catkin_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[5.718s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.790s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kurisaw/Desktop/catkin_ws/src/my_serial_node' with build type 'ament_cmake'
+[5.790s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kurisaw/Desktop/catkin_ws/src/my_serial_node'
+[5.868s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.388s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kurisaw/Desktop/catkin_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[6.392s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kurisaw/Desktop/catkin_ws/src/ros_tutorials/turtlesim'
+[6.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4
+[7.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/turtlesim -- -j4 -l4
+[8.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/turtlesim -- -j4 -l4
+[10.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kurisaw/Desktop/catkin_ws/build/turtlesim
+[11.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[11.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kurisaw/Desktop/catkin_ws/build/turtlesim
+[11.487s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim' for CMake module files
+[11.489s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim' for CMake config files
+[11.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[11.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[11.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[11.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[11.599s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib'
+[11.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[11.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[11.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[11.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[11.693s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/bin'
+[11.693s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[11.694s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages'
+[11.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[11.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[11.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[11.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[11.781s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/bin'
+[11.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.ps1'
+[11.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.dsv'
+[11.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.sh'
+[11.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.bash'
+[11.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.zsh'
+[11.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[13.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[14.049s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim' for CMake module files
+[14.052s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim' for CMake config files
+[14.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[14.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[14.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[14.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[14.150s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib'
+[14.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[14.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[14.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[14.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[14.265s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/bin'
+[14.265s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[14.266s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/lib/python3.8/site-packages'
+[14.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[14.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[14.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[14.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[14.428s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/bin'
+[14.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.ps1'
+[14.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.dsv'
+[14.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.sh'
+[14.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.bash'
+[14.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/turtlesim/package.zsh'
+[14.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kurisaw/Desktop/catkin_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[26.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/my_serial_node -- -j4 -l4
+[26.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kurisaw/Desktop/catkin_ws/build/my_serial_node
+[26.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_serial_node)
+[26.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/my_serial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kurisaw/Desktop/catkin_ws/build/my_serial_node
+[26.997s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node' for CMake module files
+[27.000s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node' for CMake config files
+[27.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_serial_node', 'cmake_prefix_path')
+[27.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/hook/cmake_prefix_path.ps1'
+[27.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/hook/cmake_prefix_path.dsv'
+[27.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/hook/cmake_prefix_path.sh'
+[27.100s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib'
+[27.101s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/bin'
+[27.101s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib/pkgconfig/my_serial_node.pc'
+[27.102s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib/python3.8/site-packages'
+[27.103s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/bin'
+[27.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.ps1'
+[27.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.dsv'
+[27.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.sh'
+[27.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.bash'
+[27.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.zsh'
+[27.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/colcon-core/packages/my_serial_node)
+[27.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_serial_node)
+[27.530s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node' for CMake module files
+[27.531s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node' for CMake config files
+[27.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_serial_node', 'cmake_prefix_path')
+[27.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/hook/cmake_prefix_path.ps1'
+[27.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/hook/cmake_prefix_path.dsv'
+[27.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/hook/cmake_prefix_path.sh'
+[27.626s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib'
+[27.627s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/bin'
+[27.627s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib/pkgconfig/my_serial_node.pc'
+[27.628s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/lib/python3.8/site-packages'
+[27.629s] Level 1:colcon.colcon_core.environment:checking '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/bin'
+[27.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.ps1'
+[27.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.dsv'
+[27.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.sh'
+[27.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.bash'
+[27.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/my_serial_node/package.zsh'
+[27.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kurisaw/Desktop/catkin_ws/install/my_serial_node/share/colcon-core/packages/my_serial_node)
+[27.712s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.716s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.848s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.848s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.848s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.041s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kurisaw/Desktop/catkin_ws/install/local_setup.ps1'
+[28.132s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kurisaw/Desktop/catkin_ws/install/_local_setup_util_ps1.py'
+[28.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kurisaw/Desktop/catkin_ws/install/setup.ps1'
+[28.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kurisaw/Desktop/catkin_ws/install/local_setup.sh'
+[28.240s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kurisaw/Desktop/catkin_ws/install/_local_setup_util_sh.py'
+[28.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kurisaw/Desktop/catkin_ws/install/setup.sh'
+[28.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kurisaw/Desktop/catkin_ws/install/local_setup.bash'
+[28.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kurisaw/Desktop/catkin_ws/install/setup.bash'
+[28.436s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kurisaw/Desktop/catkin_ws/install/local_setup.zsh'
+[28.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kurisaw/Desktop/catkin_ws/install/setup.zsh'

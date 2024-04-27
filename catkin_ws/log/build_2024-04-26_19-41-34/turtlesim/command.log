@@ -1,0 +1,2 @@
+Invoking command in '/home/kurisaw/Desktop/catkin_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/turtlesim -- -j4 -l4
+Invoked command in '/home/kurisaw/Desktop/catkin_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kurisaw/Desktop/catkin_ws/build/turtlesim -- -j4 -l4
