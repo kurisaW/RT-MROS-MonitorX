@@ -87,7 +87,11 @@ menu "Hardware Drivers Config"
             bool "Enable LVGL for LCD"
             select PKG_USING_LVGL
             default n
-            if BSP_USING_LVGL      
+            if BSP_USING_LVGL
+                config BSP_USING_LVGL_MONITORX_DEMO
+                    bool "Enable RT-MROS Monitorx Demo"
+                    default n
+            
                 menuconfig BSP_USING_LVGL_DEMO
                     bool "Enable LVGL demo for LCD"
                     if BSP_USING_LVGL_DEMO     

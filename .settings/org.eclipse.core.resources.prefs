@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
+encoding//board/lvgl/demo/RT-MROS\ MonitorX/micro_entity/micro_entity.c=UTF-8
+encoding//board/lvgl/demo/RT-MROS\ MonitorX/ui_events.c=UTF-8
 rtt-studio.preferences.renesas.configurator.root=D\:\\compile\\fsp_v3.5.0
