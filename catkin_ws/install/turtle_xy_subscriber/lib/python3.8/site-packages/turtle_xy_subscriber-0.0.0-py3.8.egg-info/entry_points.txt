@@ -1,0 +1,3 @@
+[console_scripts]
+xy_subscriber = turtle_xy_subscriber.xy_subscriber:main
+

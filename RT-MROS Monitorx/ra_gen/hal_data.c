@@ -310,7 +310,7 @@ const ether_instance_t g_ether0 =
 };
 /** Display framebuffer */
         #if GLCDC_CFG_LAYER_1_ENABLE
-        uint8_t fb_background[2][DISPLAY_BUFFER_STRIDE_BYTES_INPUT0 * DISPLAY_VSIZE_INPUT0] BSP_ALIGN_VARIABLE(64) BSP_PLACE_IN_SECTION(".bss");
+        uint8_t fb_background[1][DISPLAY_BUFFER_STRIDE_BYTES_INPUT0 * DISPLAY_VSIZE_INPUT0] BSP_ALIGN_VARIABLE(64) BSP_PLACE_IN_SECTION(".bss");
         #else
         /** Graphics Layer 1 is specified not to be used when starting */
         #endif

@@ -1,4 +1,0 @@
-[01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:[m[K In function ‘[01m[Kvoid sendMessage(float, float)[m[K’:
-[01m[K/home/kurisaw/Desktop/catkin_ws/src/my_serial_node/src/my_serial_node.cpp:39:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmessage[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
-   39 |     [01;35m[Ksprintf(message, "(%.2f,%.2f)\n", x, y)[m[K;
-      |     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

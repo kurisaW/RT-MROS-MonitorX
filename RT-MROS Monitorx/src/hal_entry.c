@@ -26,4 +26,3 @@ void hal_entry(void)
         rt_thread_mdelay(500);
     }
 }
-

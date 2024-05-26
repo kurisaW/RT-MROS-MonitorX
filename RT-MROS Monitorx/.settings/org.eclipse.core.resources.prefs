@@ -1,2 +1,5 @@
+eclipse.preferences.disable_command_length_limit=true
 eclipse.preferences.version=1
+encoding//board/lvgl/demo/RT-MROS_MonitorX/lv_turtlesim.c=UTF-8
+encoding//board/lvgl/demo/RT-MROS_MonitorX/micro_entity/micro_entity.c=UTF-8
 rtt-studio.preferences.renesas.configurator.root=D\:\\compile\\fsp_v3.5.0

@@ -161,12 +161,6 @@
 /* CYW43012 WiFi */
 
 
-/* BL808 WiFi */
-
-
-/* CYW43439 WiFi */
-
-
 /* IoT Cloud */
 
 
@@ -189,7 +183,6 @@
 #define PKG_LVGL_THREAD_PRIO 20
 #define PKG_LVGL_THREAD_STACK_SIZE 4096
 #define PKG_LVGL_DISP_REFR_PERIOD 5
-#define PKG_LVGL_USING_SQUARELINE
 #define PKG_LVGL_USING_V08036
 #define PKG_LVGL_VER_NUM 0x080306
 
@@ -227,19 +220,15 @@
 
 /* peripheral libraries and drivers */
 
-/* HAL & SDK Drivers */
-
-/* STM32 HAL & SDK Drivers */
-
-
-/* Kendryte SDK */
-
-
 /* sensors drivers */
 
 
 /* touch drivers */
 
+
+/* Kendryte SDK */
+
+#define MICRO_ROS_SERIAL_NAME "uart4"
 
 /* AI packages */
 
@@ -290,6 +279,28 @@
 
 
 /* Uncategorized */
+
+#define PKG_USING_MICRO_ROS_RTTHREAD_PACKAGE
+#define RTT_URCLC_PLATFORM_RTTHREAD
+
+/* Include examples */
+
+#define PKG_RCLC_EXAMPLE
+#define PKG_MICRO_ROS_RTTHREAD_PACKAGE_FOXY_DISTRO
+
+/* Memory configuration */
+
+#define PKG_MICRO_ROS_RTTHREAD_PACKAGE_MAX_NODES 1
+#define PKG_MICRO_ROS_RTTHREAD_PACKAGE_MAX_PUBLISHERS 2
+#define PKG_MICRO_ROS_RTTHREAD_PACKAGE_MAX_SUBSCRIBERS 2
+#define PKG_MICRO_ROS_RTTHREAD_PACKAGE_MAX_SERVICES 1
+#define PKG_MICRO_ROS_RTTHREAD_PACKAGE_MAX_CLIENTS 1
+
+/* ROS node communication mode */
+
+#define PKG_MICRO_ROS_USE_SERIAL
+
+/* serial configuration */
 
 #define SOC_FAMILY_RENESAS
 #define SOC_SERIES_R7FA6M3

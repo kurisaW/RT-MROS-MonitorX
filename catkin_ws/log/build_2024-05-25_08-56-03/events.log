@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000667] (my_turtle_pkg) JobQueued: {'identifier': 'my_turtle_pkg', 'dependencies': OrderedDict()}
+[0.003153] (my_turtle_pkg) JobStarted: {'identifier': 'my_turtle_pkg'}
+[0.102880] (-) TimerEvent: {}
+[0.208413] (-) TimerEvent: {}
+[0.310158] (-) TimerEvent: {}
+[0.411151] (-) TimerEvent: {}
+[0.512172] (-) TimerEvent: {}
+[0.613182] (-) TimerEvent: {}
+[0.714293] (-) TimerEvent: {}
+[0.815289] (-) TimerEvent: {}
+[0.922230] (-) TimerEvent: {}
+[1.024451] (-) TimerEvent: {}
+[1.126207] (-) TimerEvent: {}
+[1.227544] (-) TimerEvent: {}
+[1.328396] (-) TimerEvent: {}
+[1.431257] (-) TimerEvent: {}
+[1.532260] (-) TimerEvent: {}
+[1.632943] (-) TimerEvent: {}
+[1.734297] (-) TimerEvent: {}
+[1.835587] (-) TimerEvent: {}
+[1.937582] (-) TimerEvent: {}
+[2.038707] (-) TimerEvent: {}
+[2.139730] (-) TimerEvent: {}
+[2.153099] (my_turtle_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_turtle_pkg', 'build', '--build-base', '/home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/build', 'install', '--record', '/home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/install.log', '--install-scripts', '$base/lib/my_turtle_pkg', '--single-version-externally-managed'], 'cwd': '/home/kurisaw/Desktop/catkin_ws/src/my_turtle_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kurisaw', 'SSH_AGENT_PID': '1746', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/kurisaw', 'OLDPWD': '/home/kurisaw/Desktop/catkin_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1649', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'kurisaw', 'JOURNAL_STREAM': '8:55583', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kurisaw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/kurisaw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1781,unix/ubuntu:/tmp/.ICE-unix/1781', 'INVOCATION_ID': 'd897dd6d5b27409aa616964dc054a29c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f7e9d4fb_0806_4832_b881_58a9b221664a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/prefix_override:/home/kurisaw/Desktop/catkin_ws/install/my_turtle_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.241135] (-) TimerEvent: {}
+[2.342332] (-) TimerEvent: {}
+[2.443251] (-) TimerEvent: {}
+[2.544316] (-) TimerEvent: {}
+[2.646403] (-) TimerEvent: {}
+[2.748591] (-) TimerEvent: {}
+[2.784146] (my_turtle_pkg) StderrLine: {'line': b"/home/kurisaw/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.784593] (my_turtle_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.821224] (my_turtle_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.822181] (my_turtle_pkg) StdoutLine: {'line': b'creating ../../build/my_turtle_pkg/my_turtle_pkg.egg-info\n'}
+[2.827114] (my_turtle_pkg) StdoutLine: {'line': b'writing ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/PKG-INFO\n'}
+[2.828278] (my_turtle_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/dependency_links.txt\n'}
+[2.829227] (my_turtle_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/entry_points.txt\n'}
+[2.829545] (my_turtle_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/requires.txt\n'}
+[2.829784] (my_turtle_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/top_level.txt\n'}
+[2.841210] (my_turtle_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'\n"}
+[2.844429] (my_turtle_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'\n"}
+[2.845782] (my_turtle_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'\n"}
+[2.846846] (my_turtle_pkg) StdoutLine: {'line': b'running build\n'}
+[2.847154] (my_turtle_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.847631] (my_turtle_pkg) StdoutLine: {'line': b'creating /home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/build\n'}
+[2.848243] (my_turtle_pkg) StdoutLine: {'line': b'creating /home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/build/lib\n'}
+[2.848504] (my_turtle_pkg) StdoutLine: {'line': b'creating /home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg\n'}
+[2.848786] (-) TimerEvent: {}
+[2.848999] (my_turtle_pkg) StdoutLine: {'line': b'copying my_turtle_pkg/my_turtle.py -> /home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg\n'}
+[2.849915] (my_turtle_pkg) StdoutLine: {'line': b'copying my_turtle_pkg/__init__.py -> /home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg\n'}
+[2.850550] (my_turtle_pkg) StdoutLine: {'line': b'running install\n'}
+[2.851235] (my_turtle_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.853399] (my_turtle_pkg) StdoutLine: {'line': b'creating /home/kurisaw/Desktop/catkin_ws/install/my_turtle_pkg/lib/python3.8/site-packages/my_turtle_pkg\n'}
+[2.854469] (my_turtle_pkg) StdoutLine: {'line': b'copying /home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/my_turtle.py -> /home/kurisaw/Desktop/catkin_ws/install/my_turtle_pkg/lib/python3.8/site-packages/my_turtle_pkg\n'}
+[2.855041] (my_turtle_pkg) StdoutLine: {'line': b'copying /home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/__init__.py -> /home/kurisaw/Desktop/catkin_ws/install/my_turtle_pkg/lib/python3.8/site-packages/my_turtle_pkg\n'}
+[2.855598] (my_turtle_pkg) StdoutLine: {'line': b'byte-compiling /home/kurisaw/Desktop/catkin_ws/install/my_turtle_pkg/lib/python3.8/site-packages/my_turtle_pkg/my_turtle.py to my_turtle.cpython-38.pyc\n'}
+[2.857235] (my_turtle_pkg) StdoutLine: {'line': b'byte-compiling /home/kurisaw/Desktop/catkin_ws/install/my_turtle_pkg/lib/python3.8/site-packages/my_turtle_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[2.857700] (my_turtle_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.861400] (my_turtle_pkg) StdoutLine: {'line': b'Copying ../../build/my_turtle_pkg/my_turtle_pkg.egg-info to /home/kurisaw/Desktop/catkin_ws/install/my_turtle_pkg/lib/python3.8/site-packages/my_turtle_pkg-0.0.0-py3.8.egg-info\n'}
+[2.864739] (my_turtle_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.899278] (my_turtle_pkg) StdoutLine: {'line': b'Installing my_turtle script to /home/kurisaw/Desktop/catkin_ws/install/my_turtle_pkg/lib/my_turtle_pkg\n'}
+[2.900640] (my_turtle_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/kurisaw/Desktop/catkin_ws/build/my_turtle_pkg/install.log'\n"}
+[2.942354] (my_turtle_pkg) CommandEnded: {'returncode': 0}
+[2.950185] (-) TimerEvent: {}
+[2.977892] (my_turtle_pkg) JobEnded: {'identifier': 'my_turtle_pkg', 'rc': 0}
+[2.981801] (-) EventReactorShutdown: {}

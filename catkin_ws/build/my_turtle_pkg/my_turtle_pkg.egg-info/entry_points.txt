@@ -1,0 +1,3 @@
+[console_scripts]
+my_turtle = my_turtle_pkg.my_turtle:main
+
