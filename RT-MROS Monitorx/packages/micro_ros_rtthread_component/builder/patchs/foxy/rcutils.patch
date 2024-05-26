@@ -1,0 +1,56 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 02f7a5c..c12706a 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -45,6 +45,8 @@ endif()
+ if(WIN32)
+   set(time_impl_c src/time_win32.c)
+ else()
++  add_definitions(-D__rtems__)
++  add_definitions(-D_POSIX_MONOTONIC_CLOCK)
+   set(time_impl_c src/time_unix.c)
+ endif()
+ 
+@@ -61,7 +63,6 @@ set(rcutils_sources
+   src/get_env.c
+   src/hash_map.c
+   src/logging.c
+-  src/process.c
+   src/qsort.c
+   src/repl_str.c
+   src/shared_library.c
+@@ -106,7 +107,7 @@ em.invoke( \
+ string(REPLACE ";" "$<SEMICOLON>" python_code "${python_code}")
+ add_custom_command(OUTPUT include/rcutils/logging_macros.h
+   COMMAND ${CMAKE_COMMAND} -E make_directory "include/rcutils"
+-  COMMAND ${PYTHON_EXECUTABLE} ARGS -c "${python_code}"
++  COMMAND py -3 ARGS -c "${python_code}"
+   DEPENDS
+     "${CMAKE_CURRENT_BINARY_DIR}/logging_macros.h.em.watch"
+     "${CMAKE_CURRENT_BINARY_DIR}/logging.py.watch"
+diff --git a/include/rcutils/macros.h b/include/rcutils/macros.h
+index 3b369dc..6af0770 100644
+--- a/include/rcutils/macros.h
++++ b/include/rcutils/macros.h
+@@ -25,7 +25,7 @@ extern "C"
+ #ifndef _WIN32
+ #define RCUTILS_WARN_UNUSED __attribute__((warn_unused_result))
+ #else
+-#define RCUTILS_WARN_UNUSED _Check_return_
++#define RCUTILS_WARN_UNUSED __declspec(check_return)
+ #endif
+ 
+ // Note: this block was migrated from rmw/macros.h
+diff --git a/src/time_unix.c b/src/time_unix.c
+index 8cbc40a..33d589f 100644
+--- a/src/time_unix.c
++++ b/src/time_unix.c
+@@ -36,6 +36,8 @@ extern "C"
+ #else
+ #include <time.h>
+ #endif // ZEPHYR_VERSION_CODE >= ZEPHYR_VERSION(3, 1, 0)
++#elif defined(_POSIX_MONOTONIC_CLOCK)
++#include <time.h>
+ #else
+ #include <time.h>
+ #endif  //  defined(__ZEPHYR__)
