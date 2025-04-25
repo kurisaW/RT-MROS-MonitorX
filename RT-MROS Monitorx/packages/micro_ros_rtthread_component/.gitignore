@@ -1,4 +1,3 @@
 *.pyc
-**/libmicroros/
 rtthread_toolchain.cmake
 user.meta
